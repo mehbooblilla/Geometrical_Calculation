@@ -1,0 +1,22 @@
+package Java;
+
+public class Triangle implements Shape{
+   private double height;
+    private double base;
+
+    public Triangle(double height, double base) {
+        this.height = height;
+        this.base = base;
+    }
+
+    @Override
+    public double area() {
+        return  (height*base)/2;
+
+    }
+
+    @Override
+    public double circumference() {
+        return 0;
+    }
+}
